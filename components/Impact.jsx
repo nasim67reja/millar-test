@@ -3,12 +3,12 @@ import Layout from "./Layout";
 
 const Impact = () => {
   return (
-    <div className="bg-black py-[4rem] text-white">
+    <div id="impact" className="bg-black py-[4rem] text-white">
       <Layout>
-        <h2 className="font-bold text-center text-[5rem] mb-[12rem]">
+        <h2 className="font-bold text-center text-[3.5rem] md:text-[5rem] mb-[12rem]">
           Why Impact PR Pros
         </h2>
-        <div className="flex justify-between gap-[10rem]">
+        <div className="flex justify-between gap-[10rem] flex-wrap sm:flex-nowrap">
           {/* 1 */}
           <div>
             <h3 className="font-bold  mb-[6rem] flex justify-center items-center">

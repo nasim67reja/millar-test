@@ -22,14 +22,14 @@ const Card = ({ imageSrc, title, description }) => {
 const Services = () => {
   return (
     <Layout>
-      <div className="py-8">
+      <div className="py-8" id="services">
         <h2 className="text-[4.5rem] font-bold  text-center">Our Services</h2>
         <p className="text-[2rem] my-[2rem] text-center">PRESS AND BRANDING</p>
-        <div className="flex  ">
+        <div className="flex   flex-wrap lg:flex-nowrap   ">
           {cards.map((card) => (
             <div
               key={card.title}
-              className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8"
+              className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8 flex items-center justify-center"
             >
               <Card {...card} />
             </div>

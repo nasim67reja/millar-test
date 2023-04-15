@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center h-fit px-[4rem] py-[5rem]">
-        <h1 className="text-[6.5rem] font-bold  text-center leading-[1.3]">
+        <h1 className="text-[4.5rem] md:text-[6.5rem] font-bold  text-center leading-[1.3]">
           Guaranteed PR Placement in Major Publications
         </h1>
         <p className="text-[2.5rem] my-[2rem] text-center">

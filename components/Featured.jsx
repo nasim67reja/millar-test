@@ -5,7 +5,7 @@ import Test from "./Test";
 const Featured = () => {
   return (
     <div>
-      <div className="max-w-[650px] px-[20px] mx-auto mb-[8rem]">
+      <div className="max-w-[650px] px-[20px] mx-auto mb-[8rem]" id="featured">
         <h3 className="text-center text-t-color text-[40px] font-bold mb-[3rem]">
           Featured Franchises
         </h3>

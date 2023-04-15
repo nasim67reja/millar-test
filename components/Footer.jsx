@@ -12,7 +12,7 @@ const Footer = () => {
               <div>
                 <div className=" center lg:block">
                   <Image
-                    src="/images/miller.png"
+                    src="/image/impactPr.png"
                     alt="logo"
                     width={147}
                     height={147}
